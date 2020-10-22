@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASGXB2T3b8ky1OujT+dlrlAAAAAACAAAAAAAQZgAAAAEAACAAAADbPl7wfasuEn7tE1QjYdVJqGMGytE3XZEdLyPY6RlOwwAAAAAOgAAAAAIAACAAAABGf3hb2a+X1kxbZOt9bX/ceNJziF8S6mWQVqXvMUaL+oAAAAC4xC1DUwFvac9aW0RQu4FjlroN+1im6z9SPR14ccoP4CpSX5cAgv6TjvoyX5GscZi4IvfqSJSdz39RiHgoNrWhBmLHeAywmNiuELBLqmPUcI0qdOJRkCBRmV63KPRQdMZiTT6iPBZB2JP5rEcwnodbYzNTPmzZYpfEOEBVfl23qkAAAAALOuisyKjqLddeJHIwvy+rpruEV5IFKxyVJQAvLebnZTKdWEnJSoc1nPmj2iDinvFXrAgAH39kRLjdz4Ah9H70</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="WebApiDatabase">
+      <Value>Server=tcp:testz-server.database.windows.net,1433%3bInitial Catalog=testz-bdd%3bPersist Security Info=False%3bUser ID=fsarica%3bPassword=testz%2a123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
